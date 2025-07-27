@@ -1,0 +1,57 @@
+.Main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Main-Heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Main-Heading h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.Main-Heading p {
+  font-size: 18px;
+  color: #555;
+}
+.Pics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 80px; 
+  justify-items: center; 
+  align-items: center;   
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+.IMG {
+   width: 90vw;
+  max-width: 400px;
+  height: 240px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.IMG img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+

@@ -1,0 +1,82 @@
+.search-results-container {
+  padding: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 60px;
+  background-color: #fff;
+  min-height: 80vh;
+}
+.Search-Result{
+    text-align: center;
+    margin: 20px;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.Search-Result2{
+  text-align: center;
+    margin: 20px;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.Drop-down_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+}
+.Drop-down{
+  margin-bottom: 20px;
+  border: 2px solid ;
+  border-radius: 8px;
+  border-color: tomato;
+  height:40px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px;
+
+}
+.Drop-down option {
+  font-size: 16px;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.package-card {
+  padding: 15px;
+  border-radius: 8px;
+  width: 270px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  background-color: #f5f5f5;
+}
+.Jazz{
+    color:#eb2248;
+    font-size: 24px;
+    font-weight: 540;
+}
+.Telenor{
+    color:#3cace8;
+     font-size: 24px;
+    font-weight: 540;
+}
+.Ufone{
+    color:#f2821f;
+     font-size: 24px;
+    font-weight: 540;
+}
+.Zong{
+    color:#8fc740;
+     font-size: 24px;
+    font-weight: 540;
+}
+.card-values{
+    margin-top: 10px;
+}

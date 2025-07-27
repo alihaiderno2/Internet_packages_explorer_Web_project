@@ -1,0 +1,83 @@
+.best-monthly {
+  padding: 40px 20px;
+  background: #fff;
+}
+
+.best-monthly__heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d0d0d;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.best-monthly__list {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+.best-monthly__list::-webkit-scrollbar {
+  height: 6px;
+}
+.best-monthly__list::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.best-monthly__card {
+  flex: 0 0 260px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card__provider {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.card__name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0d0d0d;
+}
+
+.card__details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.card__details li {
+  margin-bottom: 4px;
+}
+.Jazz{
+    color:#eb2248;
+    font-size: medium;
+    font-weight: 500;
+}
+.Telenor{
+    color:#3cace8;
+    font-size: medium;
+    font-weight: 500;
+}
+.Ufone{
+    color:#f2821f;
+    font-size: medium;
+    font-weight: 500;
+}
+.Zong{
+    color:#8fc740;
+    font-size: medium;
+    font-weight: 500;
+}

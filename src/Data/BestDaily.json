@@ -1,0 +1,74 @@
+[
+  {
+    "provider": "Telenor",
+    "name": "4G Daily",
+    "data": "250 MB all‑hours",
+    "validity": "1 Day",
+    "price": "Rs. 15",
+    "code": "*13#"
+  },
+  {
+    "provider": "Telenor",
+    "name": "Daily Offpeak",
+    "data": "1.5 GB (6AM–6PM)",
+    "validity": "1 Day",
+    "price": "Rs. 15",
+    "code": "*10#"
+  },
+  {
+    "provider": "Jazz",
+    "name": "Regional Daily Offer",
+    "data": "250 MB + on‑net mins & SMS",
+    "validity": "1 Day",
+    "price": "Rs. 21",
+    "code": "Varies by region"
+  },
+  {
+    "provider": "Jazz",
+    "name": "Super Data Offer",
+    "data": "5 000 MB regional",
+    "validity": "1 Day",
+    "price": "Rs. 6",
+    "code": "*577*4# / *773*4#"
+  },
+  {
+    "provider": "Ufone",
+    "name": "Mega Night",
+    "data": "2 GB (1AM–8AM)",
+    "validity": "1 Day",
+    "price": "≈ Rs. 15",
+    "code": "*550#"
+  },
+  {
+    "provider": "Ufone",
+    "name": "Special Daily",
+    "data": "50 MB + 500 MB social (1–9AM)",
+    "validity": "1 Day",
+    "price": "≈ Rs. 6",
+    "code": "*3461#"
+  },
+  {
+    "provider": "Ufone",
+    "name": "Daily Light 3G",
+    "data": "40 MB + 500 MB social",
+    "validity": "1 Day",
+    "price": "≈ Rs. 12",
+    "code": "*2256#"
+  },
+  {
+    "provider": "Zong",
+    "name": "Daily Data Max",
+    "data": "500 MB + 500 MB YouTube",
+    "validity": "1 Day",
+    "price": "Rs. 49",
+    "code": "*6464#"
+  },
+  {
+    "provider": "Zong",
+    "name": "Good Night Offer",
+    "data": "2.5 GB (1AM–9AM)",
+    "validity": "1 Day",
+    "price": "Rs. 34.50",
+    "code": "*6464#"
+  }
+]

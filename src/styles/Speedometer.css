@@ -1,0 +1,80 @@
+/* Speedometer.css */
+.how-long {
+  position: absolute;
+  margin-bottom: 80px;
+  top: 95px;
+  font-size: 46px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.speedometer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.gauge {
+  position: relative;
+  width: 640px;
+  height: 320px;
+  border-top: 8px solid #0d0d0d;
+  border-radius: 320px 320px 0px 0px;
+  background: #f5f5f5;
+  box-shadow: inset 0 4px 6px rgba(0,0,0,0.1);
+  overflow: visible;
+}
+
+.tick {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  height: 15px;
+  background: #0d0d0d;
+  transform-origin: bottom center;
+  box-shadow: 1px 1px 3px #0d0d0d;
+}
+
+.tick-label {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform-origin: bottom center;
+  font-size: 16px;
+  color: #0d0d0d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.tick-label span {
+  display: block;
+  text-align: center;
+}
+
+.needle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 300px solid tomato;
+  transform-origin: bottom center;
+  filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.4));
+
+}
+
+.center-dot {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  background: #0d0d0d;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}

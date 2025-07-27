@@ -1,0 +1,123 @@
+.navbar{
+    background-color: #0D0D0D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    gap: 30px;
+    border-bottom: 0.5px solid tomato ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  margin-bottom: 10px;
+}
+.navbar-logo-container {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    margin-left: 20px;
+}
+.navbar-logo-container img {
+    height: 40px;
+    margin-left: 20px;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+    gap: 60px;
+}
+.navbar-links a {
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  color: white;
+  font-weight: 500;
+}
+.navbar-search-container {
+    display: flex;
+    align-items: center;
+}
+.navbar-search-toggle {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 60px;
+    position: relative;
+}
+.search-icon-button  {
+  position: relative;
+  top: 2px;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity:1;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    visibility: visible;
+}
+.search-icon-button.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.search-input {
+  padding: 6px 12px;
+  border: 1px solid #770909;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-left: 10px;
+  outline: none;
+  width: 0;
+  opacity: 0;
+  transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.search-input.expanded {
+  width: 180px;
+  opacity: 1;
+}
+
+.search-input.collapsed {
+  width: 0px;
+  opacity: 0;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.close-icon {
+  position: absolute;
+  right: 10px;
+  margin-top: 12px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.close-icon:hover {
+  opacity: 1;
+}
+.close-icon.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.active-link {
+  border-bottom: 2px solid;
+  padding-bottom: 4px;
+  border-bottom-color: tomato !important;
+  border-bottom-left-radius: 5px;
+}

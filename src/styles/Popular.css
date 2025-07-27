@@ -1,0 +1,146 @@
+.Popular-cards{
+    width:100%;
+    height:70vh;
+    background-color: #f5f5f5;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.Popular-cards .Popular-heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 56px;
+    font-weight: 650;
+    color: #0d0d0d;
+    margin-bottom: 20px;
+}
+.Popular-cards-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+}
+.card1{
+    box-shadow:  0px 2px 4px #eb2248;
+    border-color: #eb2248;
+}
+.card2{
+    box-shadow: 0px 2px 4px #00aaff;
+}
+.card3{
+    box-shadow: 0px 2px 4px #ffcc00;
+}
+.card4{
+    box-shadow: 0px 2px 4px #00cc66;
+}
+.card1, .card2, .card3, .card4 {
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.card1:hover {
+  box-shadow: 0px 4px 12px #eb2248;
+}
+.card2:hover {
+  box-shadow: 0px 4px 12px #3cace8;
+}
+.card3:hover {
+  box-shadow: 0px 4px 12px #f2821f;
+}
+.card4:hover {
+  box-shadow: 0px 4px 12px #8fc740;
+}
+.Package-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #0d0d0d;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card1 .Package-name{
+  color: #eb2248;
+}
+.card2 .Package-name{
+  color: #3cace8;
+}
+.card3 .Package-name{
+  color: #f2821f;
+}
+.card4 .Package-name{
+  color: #8fc740;
+}
+.Card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+  width: 100%;
+}
+
+.Card ul li {
+  margin-bottom: 12px;
+  padding-left: 12px;
+  position: relative;
+  text-align: left;
+}
+
+.Card ul li::before {
+  position: absolute;
+  left: 0;
+  color: #888;
+}
+.Package-more {
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 12px;
+  align-items: center;
+}
+.link-to-networks {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.link-to-networks svg {
+  font-size:large;
+  transition: transform 0.3s ease;
+}
+.link-to-networks:hover svg {
+  transform: translateX(4px);
+}
+.card1 .link-to-networks {
+  color: #eb2248;
+}
+.card2 .link-to-networks{
+  color:#3cace8
+}
+.card3 .link-to-networks{
+  color: #f2821f;
+}
+.card4 .link-to-networks{
+  color: #8fc740;
+}

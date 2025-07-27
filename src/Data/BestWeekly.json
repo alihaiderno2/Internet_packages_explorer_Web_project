@@ -1,0 +1,90 @@
+[
+  {
+    "provider": "Jazz",
+    "name": "Weekly Super Max",
+    "data": "30 GB + 6 000 Jazz mins",
+    "validity": "7 Days",
+    "price": "Rs. 299",
+    "code": "*506#"
+  },
+  {
+    "provider": "Jazz",
+    "name": "Weekly Data Combo",
+    "data": "55 GB (30 GB + 25 GB off‑peak)",
+    "validity": "7 Days",
+    "price": "Rs. 549",
+    "code": "*581#"
+  },
+  {
+    "provider": "Jazz",
+    "name": "Weekly Lite",
+    "data": "10 GB",
+    "validity": "7 Days",
+    "price": "Rs. 199",
+    "code": "*553#"
+  },
+  {
+    "provider": "Telenor",
+    "name": "4G Weekly Internet Max",
+    "data": "30 GB (12 AM–9 AM)",
+    "validity": "7 Days",
+    "price": "Rs. 55",
+    "code": "*19#"
+  },
+  {
+    "provider": "Telenor",
+    "name": "Weekly Ultra Plus",
+    "data": "15 GB + 15 GB off‑peak",
+    "validity": "7 Days",
+    "price": "Rs. 550",
+    "code": "*303#"
+  },
+  {
+    "provider": "Telenor",
+    "name": "Weekly Starter",
+    "data": "8 GB (4 GB + 4 GB off‑peak)",
+    "validity": "7 Days",
+    "price": "Rs. 370",
+    "code": "*302#"
+  },
+  {
+    "provider": "Ufone",
+    "name": "Weekly Internet Plus",
+    "data": "10 GB (5 GB + 5 GB 1 AM–9 AM)",
+    "validity": "7 Days",
+    "price": "Rs. 240",
+    "code": "*260#"
+  },
+  {
+    "provider": "Ufone",
+    "name": "Weekly Social Hero",
+    "data": "12 GB social apps only",
+    "validity": "7 Days",
+    "price": "Rs. 250",
+    "code": "*5858#"
+  },
+  {
+    "provider": "Ufone",
+    "name": "Weekly Lite",
+    "data": "5 GB",
+    "validity": "7 Days",
+    "price": "Rs. 150",
+    "code": "*2257#"
+  },
+  {
+    "provider": "Zong",
+    "name": "Weekly Premium",
+    "data": "30 GB + Unlimited Zong mins + 180 Off‑net mins + Unlimited SMS",
+    "validity": "7 Days",
+    "price": "Rs. 500",
+    "code": "*2250#"
+  },
+  {
+    "provider": "Zong",
+    "name": "Weekly Data Max",
+    "data": "15 GB",
+    "validity": "7 Days",
+    "price": "Rs. 299",
+    "code": "*6464#"
+  }
+]
